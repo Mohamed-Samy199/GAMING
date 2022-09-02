@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAMING</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/leon.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="icon" href="images/shop_img05.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Lobster&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,600&family=Rubik&family=Source+Sans+Pro:wght@200;300;400;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,600&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo">
+            </div>
+            <div class="manu-list flex" id="manu-list">
+                <div class="links">
+                    <ul class="link">
+                        <li><a href="#index.html"  onclick="window.location.href='index.html'">home</a></li>
+                        <li><a href="#shop.html" onclick="window.location.href='shop.html'">shop</a></li>
+                        <li><a href="#about.html" onclick="window.location.href='about.html'">about</a></li>
+                        <li><a href="#services.html" onclick="window.location.href='services.html'">services</a></li>
+                        <li><a href="#contact.html" class="active" onclick="window.location.href='contact.html'">contact</a></li>
+                    </ul>
+                    <div class="close" id="close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="icons flex">
+                <div class="icon">
+                    <a href="#"><i class="ri-search-eye-line btn-search"></i></a>
+                </div>
+                <div class="icon">
+                    <a href="#"><i class="ri-shopping-cart-2-line btn-cart"></i></a>
+                </div>
+                <div class="icon">
+                    <a href="#"><i class="ri-login-box-line btn-login"></i></a>
+                </div>
+                <div class="toggle icon" id="toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="search-form flex">
+        <i class="close-search fa-solid fa-xmark"></i>
+        <h2 class="head">...search...</h2>
+        <div class="name">
+            <label for="search" class="fa-solid fa-magnifying-glass"></label>
+            <input type="search" placeholder="search..." id="search">
+        </div>
+    </div>
+
+    <div class="carts" id="carts">
+        <div class="flex lx">
+            <div class="image">
+                <img src="images/c-1.jpg" alt="cart image">
+            </div>
+            <div class="details">
+                <h3>valhalla</h3>
+                <p>23.00 $</p>
+                <h4>exclusive</h4>
+            </div>
+            <div class="close-cart">
+                <i class="fa-solid fa-xmark closed"></i>
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="image">
+                <img src="images/c-2.jpg" alt="cart image">
+            </div>
+            <div class="details">
+                <h3>free guy</h3>
+                <p>30.00 $</p>
+                <h4>exclusive</h4>
+            </div>
+            <div class="close-cart">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="image">
+                <img src="images/c-3.jpg" alt="cart image">
+            </div>
+            <div class="details">
+                <h3>aliens</h3>
+                <p>18.00 $</p>
+                <h4>exclusive</h4>
+            </div>
+            <div class="close-cart">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="image">
+                <img src="images/c-4.jpg" alt="cart image">
+            </div>
+            <div class="details">
+                <h3>aliens</h3>
+                <p>32.00 $</p>
+                <h4>exclusive</h4>
+            </div>
+            <div class="close-cart">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="image">
+                <img src="images/c-5.jpg" alt="cart image">
+            </div>
+            <div class="details">
+                <h3>aliens</h3>
+                <p>15.00 $</p>
+                <h4>exclusive</h4>
+            </div>
+            <div class="close-cart">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="image">
+                <img src="images/c-6.jpg" alt="cart image">
+            </div>
+            <div class="details">
+                <h3>aliens</h3>
+                <p>25.00 $</p>
+                <h4>exclusive</h4>
+            </div>
+            <div class="close-cart">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+    </div>
+    <div class="login" id="form-login">
+        <div class="btn-box">
+            <div id="bttn"></div>
+            <button class="toggle-btn" id="one">log in</button>
+            <button class="toggle-btn" id="two">register</button>
+        </div>
+
+        <form id="logins" class="form-group">
+            <input type="text" class="input" placeholder="user id" required>
+            <input type="password" class="input" placeholder="enter password" required>
+            <input type="checkbox" class="check"><span>remember password</span>
+            <button class="submit">submit</button>
+        </form>
+        <form id="register" class="form-group">
+            <input type="text" class="input" placeholder="user id" required>
+            <input type="email" class="input" placeholder="email id" required>
+            <input type="password" class="input" placeholder="enter password" required>
+            <input type="checkbox" class="check"><span>i agree</span>
+            <button class="submit">register</button>
+        </form>
+    </div>
+    <div class="image-left">
+        <img src="images/border-left.png" alt="border-left">
+    </div>
+    <div class="image-right">
+        <img src="images/border-right.png" alt="border-left">
+    </div>
+
+    <section class="shop" id="homes">
+        <div class="containet">
+            <div class="content-left">
+                <div class="content">
+                    <div class="left">
+                        <h2>contact us</h2>
+                        <a href="mailto:moh246samy@gmail.com" class="button">sand email</a>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="images/breadcrumb_shape01.png" alt="left">
+                </div>
+            </div>
+
+            <div class="content-right">
+                <div class="icontent">
+                    <div class="right">
+                        <div class="image-animation">
+                            <img src="images/img_shape.png" alt="animation">
+                        </div>
+                        <div class="image-center">
+                            <img src="images/pngegg (1).png" alt="center" width="200">
+                        </div>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="images/breadcrumb_shape02.png" alt="left">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="toggle-details">
+        <div class="container">
+            <div class="contant">
+                <div class="box">
+                    <div class="cour">
+                        <div class="larg-back" id="large" data-aos="fade-right">
+                            <div class="row">
+                                <h3>30% SOLD</h3>
+                                <span id="plus"><i class="arrow ri-arrow-down-s-line"></i></span>
+                            </div>
+                            <p>WE FINALLY MOVED OUT OF UNCLE BIFF’S BASEMENT. RELEASE OF UNCLE BIFF’S PHOTO.</p>
+                        </div>
+
+                        <div class="larg-back" id="large-one" data-aos="fade-left">
+                            <div class="row">
+                                <h3>DEVELOPMENT LEAD SOLD</h3>
+                                <span id="plus-one"><i class="arrow-one ri-arrow-down-s-line"></i></span>
+                            </div>
+                            <p>WE FINALLY MOVED OUT OF UNCLE BIFF’S BASEMENT. RELEASE OF UNCLE BIFF’S PHOTO.</p>
+                        </div>
+
+                        <div class="larg-back" id="large-two" data-aos="fade-right">
+                            <div class="row">
+                                <h3>COMMUNITY LEAD</h3>
+                                <span id="plus-two"><i class="arrow-two ri-arrow-down-s-line"></i></span>
+                            </div>
+                            <p>WE FINALLY MOVED OUT OF UNCLE BIFF’S BASEMENT. RELEASE OF UNCLE BIFF’S PHOTO.</p>
+                        </div>
+
+                        <div class="larg-back" id="large-four" data-aos="fade-left">
+                            <div class="row">
+                                <h3>PROJECT LEAD 30% SOLD</h3>
+                                <span id="plus-four"><i class="arrow-three ri-arrow-down-s-line"></i></span>
+                            </div>
+                            <p>WE FINALLY MOVED OUT OF UNCLE BIFF’S BASEMENT. RELEASE OF UNCLE BIFF’S PHOTO.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="boxs">
+                    <div class="scroll">
+                        <h3>LAST WINNERS</h3>
+                        <div class="conteudo">
+                            <div class="image" data-aos="fade-down">
+                                <img src="images/winner_img01.png" alt="winner">
+                            </div>
+                            <div class="image" data-aos="fade-up">
+                                <img src="images/winner_img02.png" alt="winner">
+                            </div>
+                            <div class="image" data-aos="fade-down">
+                                <img src="images/winner_img03.png" alt="winner">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="show-head">
+        <video src="images/star.mp4" loop muted autoplay></video>
+        <h1 class="titel">CONTACT BEYOND STAR</h1>
+    </section>
+
+    <header class="heading">
+        <div class="description">
+            <h2><span>CONTACT</span> NOW</h2>
+        </div>
+    </header>
+
+    <section class="contact">
+        <div class="container">
+            <div class="content">
+                <div class="contacted">
+                    <h2 data-aos="fade-right">CONTACT US</h2>
+                    <h3 data-aos="fade-left">LET'S TALK QUESTION.</h3>
+                    <p data-aos="fade-right">Lorem Ipsum is simply dummy text of the prig and typesetting industry. Lorem Ipsum has been text
+                        of the prig and typesetting industry.</p>
+
+                    <form onsubmit="sendEmail(); reset(); return false;">
+
+                        <div class="enter-name" data-aos="fade-left">
+                            <label for="name">YOUR NAME <span>*</span></label>
+                            <input type="text" placeholder="jon deo" id="name" required>
+                        </div>
+
+                        <div class="enter-name" data-aos="fade-right">
+                            <label for="email">YOUR EMAIL <span>*</span></label>
+                            <input type="email" placeholder="info@gmaik.com" id="email" required>
+                        </div>
+
+                        <div class="messagging" data-aos="fade-left">
+                            <label for="message">YOUR MESSAGE <span>*</span></label>
+                            <textarea class="textarea" placeholder="opinion..." id="message" cols="30"
+                                rows="10"></textarea>
+                        </div>
+
+                        <div class="checking" data-aos="fade-right">
+                            <input type="checkbox" id="check">
+                            <label for="check">VALID YOUR INFORMATIONS</label>
+                        </div>
+
+                        <!-- <div class="send">
+                            <button type="submit" class="button">submit now</button>
+                        </div> -->
+
+                        <div class="send-email" data-aos="fade-up">
+                            <a href="mailto:moh246samy@gmail.com" class="button">sand email</a>
+                        </div>
+
+                    </form>
+                </div>
+
+                <div class="map-right">
+                    <div class="image" data-aos="fade-left">
+                        <img src="images/contact_info_map.png" alt="map">
+                    </div>
+                    <div class="icons">
+                        <div class="icon">
+                            <a href="#" data-aos="fade-right"><i class="ri-map-pin-2-fill"></i></a>
+                            <p data-aos="fade-left">W84 New Park Lan, <br>New York, NY 4586
+                                United States</p>
+                        </div>
+
+                        <div class="icon">
+                            <a href="#" data-aos="fade-right"><i class="ri-phone-fill"></i></a>
+                            <p data-aos="fade-left">+9 (256) 254 9568</p>
+                        </div>
+
+                        <div class="icon">
+                            <a href="#" data-aos="fade-right"><i class="fas fa-envelope"></i></a>
+                            <p data-aos="fade-left">Contact@ info.com</p>
+                        </div>
+                    </div>
+                    <div class="social">
+                        <a href="https://www.facebook.com/mohamed.elkattan.71" class="face"  data-aos="fade-up"><i
+                                class="ri-facebook-fill"></i></a>
+                        <a href="https://web.whatsapp.com/+01288439737" class="whatsapp" data-aos="fade-down"><i
+                                class="ri-whatsapp-line one"></i></a>
+                        <a href="https://www.linkedin.com/in/mohamed-samy-el-kattan-652b93223" class="linkesin"  data-aos="fade-up"><i
+                                class="two ri-linkedin-fill"></i></a>
+                        <a href="https://www.instagram.com/mohamed.elkattan_fci/" class="insta" data-aos="fade-down"><i
+                                class="ri-instagram-line three"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="media-map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96811.54759587669!2d-74.01263924803828!3d40.6880494567041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bae694479a3%3A0xb9949385da52e69e!2sBarclays%20Center!5e0!3m2!1sen!2sbd!4v1636195194646!5m2!1sen!2sbd"
+            frameborder="0" loading="lazy"></iframe>
+
+    </section>
+
+    <footer class="footer">
+        <div class="container-footer">
+            <div class="flex-items">
+                <div class="image" data-aos="fade-right">
+                    <a href="#"><img src="images/logo.png" alt="logo"></a>
+                </div>
+
+                <div class="links">
+                    <ul class="flex" data-aos="zoom-in">
+                        <li><a href="#" onclick="window.location.href='index.html'">home</a></li>
+                        <li><a href="#" onclick="window.location.href='shop.html'">shop</a></li>
+                        <li><a href="#" onclick="window.location.href='about.html'">about</a></li>
+                        <li><a href="#" onclick="window.location.href='services.html'">services</a></li>
+                        <li><a href="#" onclick="window.location.href='contact.html'">contact</a></li>
+                    </ul>
+                </div>
+                <div class="input" data-aos="fade-left">
+                    <input type="text" placeholder="find here now">
+                    <a href="#" class="button"><i class="ri-search-line"></i></a>
+
+                </div>
+            </div>
+            <div class="flex-items items ">
+                <ul class="flex" data-aos="fade-right">
+                    <li><a href="#">FQA</a></li>
+                    <li><a href="#">HELP CENTER</a></li>
+                    <li><a href="#">TEAMS OF US</a></li>
+                    <li><a href="#">PRIVACY</a></li>
+                </ul>
+
+                <ul class="flex" data-aos="fade-left">
+                    <li><a href="https://www.facebook.com/mohamed.elkattan.71" class="icon one"><i class="ri-facebook-fill "></i></a></li>
+                    <li><a href="https://www.facebook.com/mohamed.elkattan.71" class="icon two"><i class="ri-twitter-fill "></i></a></li>
+                    <li><a href="https://www.facebook.com/mohamed.elkattan.71" class="icon three"><i class="ri-youtube-fill "></i></a></li>
+                    <li><a href="mailto:moh246samy@gmail.com" class="icon four"><i class="ri-google-fill "></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+    <section class="end">
+        <div class="flex">
+            <div>
+                <h3>COPYRIGHT © 2022 ALL RIGHTS RESERVED BY <span>MO SAMY</span></h3>
+            </div>
+            <div class="card">
+                <img src="images/cart_img.png" alt="cart">
+            </div>
+        </div>
+    </section>
+
+    <section class="movtions">
+        <a href="#homes" class="fas fa-angle-up" id="to-top"></a>
+    </section>
+
+    <section class="audition">
+        <audio id="audio">
+            <source src="bleep.wav">
+        </audio>
+
+        <button class="sound" onclick="playsound()" id="play"><i class="ri-volume-up-fill"></i></button>
+    </section>
+
+    <section class="calltions">
+        <div class="calltion">
+            <div class="big">
+                <button class="button"><i class="ri-phone-fill"></i> call us</button>
+                <a href="tel:01288439737">+01288439737</a>
+            </div>
+
+        </div>
+    </section>
+
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+
+        function sendEmail() {
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "m0h246samy@gmail.com",
+                Password: "********************",
+                To: 'm0h246samy@gmail.com',
+                From: document.getElementById("email").value,
+                Subject: "contact with me ",
+                Body: "And this is the body"
+            }).then(
+                message => alert(message)
+            );
+        }
+
+        let plus = document.getElementById("plus")
+        let large = document.getElementById("large")
+        plus.addEventListener("click", () => {
+            large.classList.toggle("should")
+        })
+        let plusOne = document.getElementById("plus-one")
+        let largeOne = document.getElementById("large-one")
+        plusOne.addEventListener("click", () => {
+            largeOne.classList.toggle("should")
+        })
+        let plusTwo = document.getElementById("plus-two")
+        let largeTwo = document.getElementById("large-two")
+        plusTwo.addEventListener("click", () => {
+            largeTwo.classList.toggle("should")
+        })
+        let plusFour = document.getElementById("plus-four")
+        let largeFour = document.getElementById("large-four")
+        plusFour.addEventListener("click", () => {
+            largeFour.classList.toggle("should")
+        })
+        let arrow = document.querySelector(".arrow")
+        arrow.addEventListener("click", () => {
+            arrow.classList.toggle("rotate")
+        })
+        let arrowOne = document.querySelector(".arrow-one")
+        arrowOne.addEventListener("click", () => {
+            arrowOne.classList.toggle("rotate")
+        })
+        let arrowTwo = document.querySelector(".arrow-two")
+        arrowTwo.addEventListener("click", () => {
+            arrowTwo.classList.toggle("rotate")
+        })
+        let arrowThree = document.querySelector(".arrow-three")
+        arrowThree.addEventListener("click", () => {
+            arrowThree.classList.toggle("rotate")
+        })
+    </script>
+
+    <script src="scrollreveal.min.js"></script>
+    <script src="swiper-bundle.min.js"></script>
+    <script src="mixitup.min.js"></script>
+    <script src="main.js">
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({
+        delay:400,
+        duration:800
+    });
+    </script>
+</body>
+
+</html>

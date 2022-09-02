@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAMING</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/leon.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="icon" href="images/shop_img05.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Lobster&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,600&family=Rubik&family=Source+Sans+Pro:wght@200;300;400;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,600&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo">
+            </div>
+            <div class="manu-list flex" id="manu-list">
+                <div class="links">
+                    <ul class="link">
+                        <li><a href="#index.html" onclick="window.location.href='index.html'">home</a></li>
+                        <li><a href="#shop.html" onclick="window.location.href='shop.html'">shop</a></li>
+                        <li><a href="#about.html" onclick="window.location.href='about.html'">about</a></li>
+                        <li><a href="#services.html" class="active" onclick="window.location.href='services.html'">services</a></li>
+                        <li><a href="#contact.html" onclick="window.location.href='contact.html'">contact</a></li>
+                    </ul>
+                    <div class="close" id="close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="icons flex">
+                <div class="icon">
+                    <a href="#"><i class="ri-search-eye-line btn-search"></i></a>
+                </div>
+                <div class="icon">
+                    <a href="#"><i class="ri-shopping-cart-2-line btn-cart"></i></a>
+                </div>
+                <div class="icon">
+                    <a href="#"><i class="ri-login-box-line btn-login"></i></a>
+                </div>
+                <div class="toggle icon" id="toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="search-form flex">
+        <i class="close-search fa-solid fa-xmark"></i>
+        <h2 class="head">...search...</h2>
+        <div class="name">
+            <label for="search" class="fa-solid fa-magnifying-glass"></label>
+            <input type="search" placeholder="search..." id="search">
+        </div>
+    </div>
+
+    <div class="carts" id="carts">
+        <div class="flex lx">
+            <div class="image">
+                <img src="images/c-1.jpg" alt="cart image">
+            </div>
+            <div class="details">
+                <h3>valhalla</h3>
+                <p>23.00 $</p>
+                <h4>exclusive</h4>
+            </div>
+            <div class="close-cart">
+                <i class="fa-solid fa-xmark closed"></i>
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="image">
+                <img src="images/c-2.jpg" alt="cart image">
+            </div>
+            <div class="details">
+                <h3>free guy</h3>
+                <p>30.00 $</p>
+                <h4>exclusive</h4>
+            </div>
+            <div class="close-cart">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="image">
+                <img src="images/c-3.jpg" alt="cart image">
+            </div>
+            <div class="details">
+                <h3>aliens</h3>
+                <p>18.00 $</p>
+                <h4>exclusive</h4>
+            </div>
+            <div class="close-cart">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="image">
+                <img src="images/c-4.jpg" alt="cart image">
+            </div>
+            <div class="details">
+                <h3>aliens</h3>
+                <p>32.00 $</p>
+                <h4>exclusive</h4>
+            </div>
+            <div class="close-cart">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="image">
+                <img src="images/c-5.jpg" alt="cart image">
+            </div>
+            <div class="details">
+                <h3>aliens</h3>
+                <p>15.00 $</p>
+                <h4>exclusive</h4>
+            </div>
+            <div class="close-cart">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="image">
+                <img src="images/c-6.jpg" alt="cart image">
+            </div>
+            <div class="details">
+                <h3>aliens</h3>
+                <p>25.00 $</p>
+                <h4>exclusive</h4>
+            </div>
+            <div class="close-cart">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+    </div>
+    <div class="login" id="form-login">
+        <div class="btn-box">
+            <div id="bttn"></div>
+            <button class="toggle-btn" id="one">log in</button>
+            <button class="toggle-btn" id="two">register</button>
+        </div>
+
+        <form id="logins" class="form-group">
+            <input type="text" class="input" placeholder="user id" required>
+            <input type="password" class="input" placeholder="enter password" required>
+            <input type="checkbox" class="check"><span>remember password</span>
+            <button class="submit">submit</button>
+        </form>
+        <form id="register" class="form-group">
+            <input type="text" class="input" placeholder="user id" required>
+            <input type="email" class="input" placeholder="email id" required>
+            <input type="password" class="input" placeholder="enter password" required>
+            <input type="checkbox" class="check"><span>i agree</span>
+            <button class="submit">register</button>
+        </form>
+    </div>
+    <div class="image-left">
+        <img src="images/border-left.png" alt="border-left">
+    </div>
+    <div class="image-right">
+        <img src="images/border-right.png" alt="border-left">
+    </div>
+
+    <section class="shop" id="homes">
+        <div class="containet">
+            <div class="content-left">
+                <div class="content">
+                    <div class="left">
+                        <h2>our services</h2>
+                        <a href="#" class="button" class="button" onclick="window.location.href='index.html'">services
+                            <span><i class="ri-arrow-right-s-fill"></i></span> home</a>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="images/breadcrumb_shape01.png" alt="left">
+                </div>
+            </div>
+
+            <div class="content-right">
+                <div class="icontent">
+                    <div class="right">
+                        <div class="image-animation">
+                            <img src="images/img_shape.png" alt="animation">
+                        </div>
+                        <div class="image-center">
+                            <img src="images/breadcrumb_img02.png" alt="center" width="200">
+                        </div>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="images/breadcrumb_shape02.png" alt="left">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <header class="heading">
+        <div class="description">
+            <h2><span>GIVE </span>PLAYERS</h2>
+        </div>
+    </header>
+
+    <section class="players">
+        <div class="container">
+            <div class="content">
+                <div class="frist-obtions">
+                    <div class="box" data-aos="fade-right">
+                        <div class="row-one ">
+                            <h3>VR DEVELOPMENT</h3>
+                            <div class="image-play">
+                                <img src="images/gp_1.png" alt="play">
+                            </div>
+                        </div>
+                        <div class="details">
+                            <p>Nullam quis ante. Maecenas ullamcorper, dui et placerat feugiat, eros pede varius nisi,
+                                condimentum</p>
+                        </div>
+                    </div>
+
+                    <div class="box" data-aos="fade-left">
+                        <div class="row-one">
+                            <h3>CAREER IN GAMING</h3>
+                            <div class="image-play">
+                                <img src="images/gp_icon02.png" alt="play">
+                            </div>
+                        </div>
+                        <div class="details">
+                            <p>Nullam quis ante. Maecenas ullamcorper, dui et placerat feugiat, eros pede varius nisi,
+                                condimentum</p>
+                        </div>
+                    </div>
+
+                    <div class="box" data-aos="fade-right">
+                        <div class="row-one">
+                            <h3>ACTIVISION OFFERING</h3>
+                            <div class="image-play">
+                                <img src="images/gp_icon03.png" alt="play">
+                            </div>
+                        </div>
+                        <div class="details">
+                            <p>Nullam quis ante. Maecenas ullamcorper, dui et placerat feugiat, eros pede varius nisi,
+                                condimentum</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="only-obtion" data-aos="zoom-in">
+                    <div class="wommen-image">
+                        <img src="images/give_player.png" alt="wommen">
+                    </div>
+                </div>
+
+                <div class="last-obtion">
+                    <div class="box" data-aos="fade-left">
+                        <div class="row-two">
+                            <div class="image-play">
+                                <img src="images/gp_icon04.png" alt="play">
+                            </div>
+                            <h3>ACTIVE TEAM MEMBERS</h3>
+                        </div>
+                        <div class="details">
+                            <p>Nullam quis ante. Maecenas ullamcorper, dui et placerat feugiat, eros pede varius nisi,
+                                condimentum</p>
+                        </div>
+                    </div>
+
+                    <div class="box" data-aos="fade-right">
+                        <div class="row-two">
+                            <div class="image-play">
+                                <img src="images/gp_5.png" alt="play">
+                            </div>
+                            <h3>DESIGN & STRATEGY</h3>
+                        </div>
+                        <div class="details">
+                            <p>Nullam quis ante. Maecenas ullamcorper, dui et placerat feugiat, eros pede varius nisi,
+                                condimentum</p>
+                        </div>
+                    </div>
+
+                    <div class="box last" data-aos="fade-left">
+                        <div class="row-two">
+                            <div class="image-play">
+                                <img src="images/gp_icon06.png" alt="play">
+                            </div>
+                            <h3>WEAPON BLUEPRINTS, 2XP,</h3>
+                        </div>
+                        <div class="details">
+                            <p>Nullam quis ante. Maecenas ullamcorper, dui et placerat feugiat, eros pede varius nisi,
+                                condimentum</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="body">
+        <div class="container">
+            <div class="active panel" style="background-image: url('./images/s_gallery_img01.jpg');">
+                <div class="box">
+                    <a href="https://www.youtube.com/watch?v=ssrNcwxALS4&t=15s">
+                        <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+                        <lord-icon src="https://cdn.lordicon.com/rivoakkk.json" trigger="hover"
+                            colors="primary:#ff8503,secondary:#999999" style="width:100px;height:100px" class="center">
+                        </lord-icon>
+                    </a>
+                </div>
+            </div>
+            <div class="active panel" style="background-image: url('./images/s_gallery_img02.jpg');">
+                <div class="box">
+                    <a href="https://www.youtube.com/watch?v=Axmg1E4HrVE">
+                        <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+                        <lord-icon src="https://cdn.lordicon.com/rivoakkk.json" trigger="hover"
+                            colors="primary:#ff8503,secondary:#999999" style="width:100px;height:100px" class="center">
+                        </lord-icon>
+                    </a>
+                </div>
+            </div>
+            <div class="active panel" style="background-image: url('./images/s_gallery_img03.jpg');">
+                <div class="box">
+                    <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+                    <lord-icon src="https://cdn.lordicon.com/rivoakkk.json" trigger="hover"
+                        colors="primary:#ff8503,secondary:#999999" style="width:100px;height:100px" class="center">
+                    </lord-icon>
+                </div>
+            </div>
+            <div class="active panel" style="background-image: url('./images/s_gallery_img04.jpg');">
+                <div class="box">
+                    <a href="https://www.youtube.com/watch?v=K9HKYicup1Y">
+                        <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+                        <lord-icon src="https://cdn.lordicon.com/rivoakkk.json" trigger="hover"
+                            colors="primary:#ff8503,secondary:#999999" style="width:100px;height:100px" class="center">
+                        </lord-icon>
+                    </a>
+                </div>
+            </div>
+            <div class="active panel" style="background-image: url('./images/s_gallery_img05.jpg');">
+                <div class="box">
+                    <a href="https://www.youtube.com/watch?v=WdKIQSwkYHI">
+                        <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+                        <lord-icon src="https://cdn.lordicon.com/rivoakkk.json" trigger="hover"
+                            colors="primary:#ff8503,secondary:#999999" style="width:100px;height:100px" class="center">
+                        </lord-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <header class="heading">
+        <div class="description">
+            <h2><span>SQUAD </span>SERVICES</h2>
+        </div>
+    </header>
+
+    <div class="pages">
+        <div class="container anther-pages">
+            <div class="content">
+                <div class="box" data-aos="fade-down-right">
+                    <div class="image-page">
+                        <a href="https://aries.gorillaz.com/">
+                            <img src="images/squad_img01.jpg" alt="pages">
+                        </a>
+                    </div>
+                    <div class="more-details">
+                        <h3>ARIES ZODIAC</h3>
+                        <div class="social">
+                            <a href="#"><i class="ri-twitter-fill"></i></a>
+                            <a href="#"><i class="ri-vimeo-line"></i></a>
+                            <a href="#"><i class="ri-pinterest-fill"></i></a>
+                            <a href="#"><i class="ri-reddit-fill"></i></a>
+                        </div>
+                    </div>
+                    <div class="follow">
+                        <p>MISSION CON</p>
+                        <span>follow us</span>
+                    </div>
+                </div>
+
+                <div class="box" data-aos="fade-down">
+                    <div class="image-page">
+                        <a href="https://wolf.game/">
+                            <img src="images/squad_img02.jpg" alt="pages">
+                        </a>
+                    </div>
+                    <div class="more-details">
+                        <h3>WOLF NINJA</h3>
+                        <div class="social">
+                            <a href="#"><i class="ri-twitter-fill"></i></a>
+                            <a href="#"><i class="ri-vimeo-line"></i></a>
+                            <a href="#"><i class="ri-pinterest-fill"></i></a>
+                            <a href="#"><i class="ri-reddit-fill"></i></a>
+                        </div>
+                    </div>
+                    <div class="follow">
+                        <p>TEAMS</p>
+                        <span>follow us</span>
+                    </div>
+                </div>
+
+                <div class="box" data-aos="fade-down">
+                    <div class="image-page">
+                        <a href="https://store.steampowered.com/app/45410/Ignite/">
+                            <img src="images/squad_img03.jpg" alt="pages">
+                        </a>
+                    </div>
+                    <div class="more-details">
+                        <h3>IGNITE ZODIAC</h3>
+                        <div class="social">
+                            <a href="#"><i class="ri-twitter-fill"></i></a>
+                            <a href="#"><i class="ri-vimeo-line"></i></a>
+                            <a href="#"><i class="ri-pinterest-fill"></i></a>
+                            <a href="#"><i class="ri-reddit-fill"></i></a>
+                        </div>
+                    </div>
+                    <div class="follow">
+                        <p>MISSION CON</p>
+                        <span>follow us</span>
+                    </div>
+                </div>
+
+                <div class="box" data-aos="fade-down-left">
+                    <div class="image-page">
+                        <a href="https://gameforge.com/en-US/littlegames/panda-games/">
+                            <img src="images/squad_img04.jpg" alt="pages">
+                        </a>
+                    </div>
+                    <div class="more-details">
+                        <h3>HUNTER X</h3>
+                        <div class="social">
+                            <a href="#"><i class="ri-twitter-fill"></i></a>
+                            <a href="#"><i class="ri-vimeo-line"></i></a>
+                            <a href="#"><i class="ri-pinterest-fill"></i></a>
+                            <a href="#"><i class="ri-reddit-fill"></i></a>
+                        </div>
+                    </div>
+                    <div class="follow">
+                        <p>WEAPON</p>
+                        <span>follow us</span>
+                    </div>
+                </div>
+
+                <div class="box" data-aos="fade-up-right">
+                    <div class="image-page">
+                        <a
+                            href="https://zodigames.com/?gclid=CjwKCAjw6raYBhB7EiwABge5KuOdnKX4Z3oNLdqUl7gOusllx_Pe-r4YST5Jh8uieIA7G0XXrWcyEBoCs_UQAvD_BwE">
+                            <img src="images/squad_img05.jpg" alt="pages">
+                        </a>
+                    </div>
+                    <div class="more-details">
+                        <h3>ARIES ZODIAC</h3>
+                        <div class="social">
+                            <a href="#"><i class="ri-twitter-fill"></i></a>
+                            <a href="#"><i class="ri-vimeo-line"></i></a>
+                            <a href="#"><i class="ri-pinterest-fill"></i></a>
+                            <a href="#"><i class="ri-reddit-fill"></i></a>
+                        </div>
+                    </div>
+                    <div class="follow">
+                        <p>WEAPON</p>
+                        <span>follow us</span>
+                    </div>
+                </div>
+
+                <div class="box" data-aos="fade-up">
+                    <div class="image-page">
+                        <a href="https://www.callofduty.com/ar/warzone">
+                            <img src="images/squad_img06.jpg" alt="pages">
+                        </a>
+                    </div>
+                    <div class="more-details">
+                        <h3>WARZONE</h3>
+                        <div class="social">
+                            <a href="#"><i class="ri-twitter-fill"></i></a>
+                            <a href="#"><i class="ri-vimeo-line"></i></a>
+                            <a href="#"><i class="ri-pinterest-fill"></i></a>
+                            <a href="#"><i class="ri-reddit-fill"></i></a>
+                        </div>
+                    </div>
+                    <div class="follow">
+                        <p>MISSION</p>
+                        <span>follow us</span>
+                    </div>
+                </div>
+
+                <div class="box" data-aos="fade-up">
+                    <div class="image-page">
+                        <a href="https://www.playstation.com/en-us/ps4/ps4-games/">
+                            <img src="images/squad_img07.jpg" alt="pages">
+                        </a>
+                    </div>
+                    <div class="more-details">
+                        <h3>ARIES ZODIAC</h3>
+                        <div class="social">
+                            <a href="#"><i class="ri-twitter-fill"></i></a>
+                            <a href="#"><i class="ri-vimeo-line"></i></a>
+                            <a href="#"><i class="ri-pinterest-fill"></i></a>
+                            <a href="#"><i class="ri-reddit-fill"></i></a>
+                        </div>
+                    </div>
+                    <div class="follow">
+                        <p>MISSION</p>
+                        <span>follow us</span>
+                    </div>
+                </div>
+
+                <div class="box" data-aos="fade-up-left">
+                    <div class="image-page">
+                        <a href="https://poki.com/en/ninja">
+                            <img src="images/squad_img08.jpg" alt="pages">
+                        </a>
+                    </div>
+                    <div class="more-details">
+                        <h3>MADFUX NINJA</h3>
+                        <div class="social">
+                            <a href="#"><i class="ri-twitter-fill"></i></a>
+                            <a href="#"><i class="ri-vimeo-line"></i></a>
+                            <a href="#"><i class="ri-pinterest-fill"></i></a>
+                            <a href="#"><i class="ri-reddit-fill"></i></a>
+                        </div>
+                    </div>
+                    <div class="follow">
+                        <p>MISSION</p>
+                        <span>follow us</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="container-footer">
+            <div class="flex-items">
+                <div class="image" data-aos="fade-right">
+                    <a href="#"><img src="images/logo.png" alt="logo"></a>
+                </div>
+
+                <div class="links">
+                    <ul class="flex" data-aos="zoom-in">
+                        <li><a href="#" onclick="window.location.href='index.html'">home</a></li>
+                        <li><a href="#" onclick="window.location.href='shop.html'">shop</a></li>
+                        <li><a href="#" onclick="window.location.href='about.html'">about</a></li>
+                        <li><a href="#" onclick="window.location.href='services.html'">services</a></li>
+                        <li><a href="#" onclick="window.location.href='contact.html'">contact</a></li>
+                    </ul>
+                </div>
+                <div class="input" data-aos="fade-left">
+                    <input type="text" placeholder="find here now">
+                    <a href="#" class="button"><i class="ri-search-line"></i></a>
+
+                </div>
+            </div>
+            <div class="flex-items items ">
+                <ul class="flex" data-aos="fade-right">
+                    <li><a href="#">FQA</a></li>
+                    <li><a href="#">HELP CENTER</a></li>
+                    <li><a href="#">TEAMS OF US</a></li>
+                    <li><a href="#">PRIVACY</a></li>
+                </ul>
+
+                <ul class="flex" data-aos="fade-left">
+                    <li><a href="https://www.facebook.com/mohamed.elkattan.71" class="icon one"><i class="ri-facebook-fill "></i></a></li>
+                    <li><a href="https://www.facebook.com/mohamed.elkattan.71" class="icon two"><i class="ri-twitter-fill "></i></a></li>
+                    <li><a href="https://www.facebook.com/mohamed.elkattan.71" class="icon three"><i class="ri-youtube-fill "></i></a></li>
+                    <li><a href="mailto:moh246samy@gmail.com" class="icon four"><i class="ri-google-fill "></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+    <section class="end">
+        <div class="flex">
+            <div>
+                <h3>COPYRIGHT © 2022 ALL RIGHTS RESERVED BY <span>MO SAMY</span></h3>
+            </div>
+            <div class="card">
+                <img src="images/cart_img.png" alt="cart">
+            </div>
+        </div>
+    </section>
+
+    <section class="movtions">
+        <a href="#homes" class="fas fa-angle-up" id="to-top"></a>
+    </section>
+
+    <section class="audition">
+        <audio id="audio">
+            <source src="bleep.wav">
+        </audio>
+
+        <button class="sound" onclick="playsound()" id="play"><i class="ri-volume-up-fill"></i></button>
+    </section>
+
+    <section class="calltions">
+        <div class="calltion">
+            <div class="big">
+                <button class="button"><i class="ri-phone-fill"></i> call us</button>
+                <a href="tel:01288439737">+01288439737</a>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="scrollreveal.min.js"></script>
+    <script src="swiper-bundle.min.js"></script>
+    <script src="mixitup.min.js"></script>
+    <script src="main.js">
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({
+        delay:400,
+        duration:800
+    });
+    </script>
+</body>
+
+</html>
